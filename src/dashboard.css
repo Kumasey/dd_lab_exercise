@@ -14,9 +14,14 @@
 }
 
 .left {
-    width: 7%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    width: 5%;
     border-right: 1px #e6e5e5 solid;
-    text-align: center;
+    /* text-align: center; */
+    /* padding: 5px; */
+    margin-left: 35px;
 }
 
 .middle {
@@ -77,6 +82,8 @@
     margin-top: 60px;
     color: #3490dc;
     font-size: 20px;
+    width: 25%;
+    /* text-align: center; */
 }
 
 .icons > i {
@@ -85,12 +92,12 @@
 
 .icon {
     height: 18px;
-    /* border-right: 2px solid black; */
+    /* border: 2px solid black; */
     margin-top: 25px;
     color: #a8a5a5;
     font-size: 20px;
     font-weight: 500px;
-
+    width: 45%;
 }
 
 .Icons {
@@ -98,10 +105,14 @@
     /* border: 1px solid red; */
     color: #a8a5a5;
     font-size: 20px;
+    border-top: solid 1px #dbdbdb;
+    width: 50%;
 }
 
 .iconz {
     margin-top: 30px;
+    /* width: 30%; */
+    /* border: 1px red solid; */
 }
 
 .categories {
@@ -613,7 +624,7 @@ tr:hover {
 }
 
 .overview {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 10vh;
     padding: 10px;
 }
